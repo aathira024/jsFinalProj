@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Page</title>
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- <h1>hi...</h1> -->
+    <div id="product-itemcontainer" class="show">
+      <div class="leftcoloumn">
+        <img src="" class="product-privewimages" id="productmainimg" />
+      </div>
+      <div class="right-coloumn">
+        <h1 class="pro-title"></h1>
+        <h4 class="pro-brand"></h4>
+        <h3 class="pro-price"></h3>
+        <h3 class="dscription-hed">Description</h3>
+        <p class="pro-descri"></p>
+        <p class="decretext"></p>
+        <h3 class="produpreview">Product Preview</h3>
+
+        <div class="previewgallery"></div>
+        <button class="add-to-cart-btn" onclick="addCartItem()">Add to Cart</button>
+      </div>
+      <div id="add-to-cart">
+        <div id="cart-count"></div>
+      </div>
+    </div>
+    <div id="product not found" class="hide">
+      <h1>Product not found</h1>
+    </div>
+    <button id="addtocarrt" class="hide">jj</button>
+
+    <script src="./script.js"></script> 
+  </body>
+</html>
